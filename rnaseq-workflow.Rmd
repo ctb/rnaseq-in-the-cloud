@@ -484,7 +484,7 @@ The first thing we notice in this plot is that our samples are very different on
 ```{r pcacondition}
 
 # add a column that describes the metadata
-yPCA$condition <- c("wt", "wt", "wt", "snf2", "snf2", "snf2")
+yPCA$condition <- c("wt", "wt", "wt", "wt", "snf2", "snf2", "snf2", "snf2")
 
 # plot again and colorize by the new column
 ggplot(yPCA, aes(PC1, PC2, col=condition)) + geom_point()
