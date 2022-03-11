@@ -23,7 +23,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE, tidy=TRUE, message = FALSE, warning = FALSE)
 
 # Setting a reasonable p-value threshold to be used throughout
-p_cutoff <- 0.1
+p_cutoff <- 0.05
 
 # this is a fold change cutoff 
 FC_cutoff <- log2(1.1)
